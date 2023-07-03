@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GraphicObject_Color">
+    <Position X="1" Y="3" Width="3.75" />
+    <Members>
+      <Method Name="~GraphicObject_Color" Hidden="true" />
+      <Method Name="GraphicObject_Color" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABABAAAAEIAAAAAAAAAAAAAAAAARggEAAAAAA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\23 Meshes\src\GraphicObject_Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicObject_Base">
+    <Position X="1.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="~GraphicObject_Base" Hidden="true" />
+      <Method Name="GraphicObject_Base" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAgAAAAAAAAAAAAIAAAAAAQAABAgAAAAAAA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\23 Meshes\src\GraphicObject_Base.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model">
+    <Position X="5.25" Y="0.5" Width="4.25" />
+    <Members>
+      <Method Name="~Model" Hidden="true" />
+      <Field Name="mDevice" Hidden="true" />
+      <Method Name="Model" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privLoadDataFromFile" Hidden="true" />
+      <Method Name="privLoadDataToGPU" Hidden="true" />
+      <Method Name="ValidMeshNum" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="Model::PreMadedeModels" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\23 Meshes\src\Model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACgBAAAADgAAAEAAAAABAAAACABgiIAAEABA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\23 Meshes\src\Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshSeparator">
+    <Position X="10.5" Y="0.5" Width="5.5" />
+    <Members>
+      <Method Name="~MeshSeparator" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="MeshSeparator::MeshIndexData">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\23 Meshes\src\MeshSeparator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAACAAAAAAAACAAABggAAACAA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\23 Meshes\src\MeshSeparator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
